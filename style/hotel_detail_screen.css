@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation Bar */
+
+li > a {
+    cursor: pointer;
+}
+
+.link-to-home {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Section */
+
+.hotel-detail {
+  height: 75vh;
+}
+
+.order-side {
+  height: 76%;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screen-container {
+    height: 100vh;
+}
+
+.big-image {
+  height: 100%;
+}
+
+.multi-image {
+  height: 350px;
+}
+
+.hotel-point-of-view {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.hotel-room {
+  width: 100%;
+  height: 100%;
+  margin-left: 12px;
+}
+
+.image-wrapper {
+  height: 416px;
+}
+
+.hotel-one {
+  border-top-right-radius: 30px;
+}
+
+.hotel-two {
+  border-bottom-right-radius: 30px;
+}
+
+/* Footer Section */
+
+.footer-height {
+    height: 300px;
+}
+
+.footer-link a {
+    margin-top: 20px;
+}
+
+.footer-text-max-width {
+    max-width: 280px;
+}
+
+.footer-margin-top {
+}
+
+.social-logo {
+    font-size: 24px;
+}
+
+.link-footer {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copy-text {
+    display: inline;
+}
+
+.margin-copy {
+    margin: 0 80px;
+}
+
+.final-margin {
+    margin-bottom: 20px;
+}
+
+/* Tap Wrapper Section */
+
+.tag-wrapper {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.tag {
+    font-size: 12px;
+    margin-right: 12px;
+    padding: 3px 8px;
+    background-color: rgb(195, 107, 107);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stars {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.list-stars {
+    background-color: white;
+}
+
+/* Hotel desc */
+
+.hotel-name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hotel-location {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+/* Hotel feature */
+
+
+.feature-text {
+    margin: 0;
+}
+
+.feature-icon {
+    margin: 0;
+    margin-right: 8px;
+}
+
+.feature {
+    margin-top: 20px;
+}
+
+/* Choosing Sectin */
+
+.choosing {
+    margin-top: 60px;
+}
+
+.choosing-container {
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.room-image {
+    height: 100%;
+    width: 180px;
+    margin-right: 18px;
+    border-radius: 10px;
+}
+
+.room-info {
+    height: 100%;
+    width: 280px;
+    margin-right: 10px;
+}
+
+.room-info p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.choosing-btn {
+    height: 100%;
+    width: 150px;
+}
+
+.choosing-text {
+    margin-bottom: 20px;
+}
+
+.hotel-room-name {
+    font-size: 20px;
+    margin-right: 7px;
+    font-weight: 500;
+}
+.register-btn{
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: #DEB380;
+    border: none;
+    border-radius: 20px;
+}
+.add-sub-con {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+}
+
+.add-sub-con p {
+    margin: 0;
+}
+
+.num {
+    margin: 0;
+}
+
+.num-btn {
+    padding: 6px 10px;
+    background-color: red;
+    margin: 0;
+}
+
+.sub-btn {
+    margin: 0;
+    padding: 0px 12px;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+.add-btn {
+    margin: 0;
+    padding: 0px 10px;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+.map-image {
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+}
+
+.price-header {
+    height: 50px;
+}
+
+.price-header p {
+    margin: 0;
+}
+
+.price-per-night {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.discount {
+    padding: 5px 10px;
+    background-color: yellow;
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 500
+}
+
+.check-date {
+    padding: 3px 8px;
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.people-size {
+    font-size: 12px;
+    margin: 0;
+}
+
+.guest-container {
+    border-radius: 12px;
+}
+
+.extra-checkbox {
+    
+}
+
+.price-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.extra {
+    font-size: 14px;
+    margin: 0;
+}
+
+.price-letter {
+    font-size: 12px;
+}
+
+.price-container {
+    border-radius: 8px;
+}
+
+.total-text {
+    font-size: 13px;
+    font-weight: 500
+}

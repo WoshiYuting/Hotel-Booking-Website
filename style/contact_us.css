@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation Bar */
+
+li > a {
+    cursor: pointer;
+}
+
+.link-to-home {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    gap: 15px;
+}
+
+.custom-btn {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: #DEB380;
+    border: none;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Footer Section */
+
+.footer-height {
+    height: 300px;
+}
+
+.footer-link a {
+    margin-top: 20px;
+}
+
+.footer-text-max-width {
+    max-width: 280px;
+}
+
+.footer-margin-top {
+    margin-top: 48px;
+}
+
+.social-logo {
+    font-size: 24px;
+}
+
+.link-footer {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copy-text {
+    display: inline;
+}
+
+.margin-copy {
+    margin: 0 80px;
+}
+
+.final-margin {
+    margin-bottom: 20px;
+}
+
+/* Contact Us */
+
+.contact-us-container {
+  height: 300px;
+}
+
+.contact {
+  width: 80%;
+  height: 100%;
+}
+
+.contact-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact p {
+  margin: 0;
+  text-align: center;
+}
+
+.contact-desc {
+  font-size: 14px;
+}
+
+.what-we-do {
+  margin-top: 60px;
+  height: 350px;
+}
+
+.what-text {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+  width: 200px;
+}
+
+.card-wrapper {
+  height: 60%;
+  margin-top: 40px;
+}
+
+.about-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.connect {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.icon-social {
+    margin-right: 20px;
+    font-size: 18px;
+    padding: 8px 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.input-wrapper {
+    width: 500px;
+
+}
+
+.input-group {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.text-area-height {
+    height: 140px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #DEB380;
+}
+.submit-btn hover{
+    background-color: #f1ae5b;
+}

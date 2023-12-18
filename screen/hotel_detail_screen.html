@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="..//style/hotel_detail_screen.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/570cb1721a.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Caveat&family=Concert+One&family=Heebo:wght@500;700&family=Libre+Baskerville&family=Lora:wght@400;500&family=Montserrat:wght@500;700&family=Mooli&family=Open+Sans:ital@1&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,700;1,800;1,900&family=Public+Sans:wght@500;700&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Hotel Detail</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+
+  <div class="container-fluid custom-height px-5 py-3">
+    <div class="container">
+      <div class="d-flex flex-row justify-content-between align-items-center">
+      <h2>Logo</h2>
+      <ul class="m-0">
+        <li><a href="../index.html" class="link-to-home" style="text-decoration: none; color: #486284;">Home</a></li>
+        <li><a href="../screen/hotel_screen.html" class="link-to-hotel_screen" style="text-decoration: none; color: #486284;">Hotels</a></li>
+        <li><a href="../screen/contact_us.html" class="link-to-contact-us" style="text-decoration: none; color: #486284;">Contact Us</a></li>
+        <li><a href="../screen/about_us_screen.html" class="link-to-about-us" style="text-decoration: none; color: #486284;">About Us</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <p style="margin: 0;">Help</p>
+        <i class="fa-solid fa-globe"></i>
+        <button type="button" class="register-btn">Register</button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+
+  <div class="container">
+    <div class="row screen-container">
+      <div class="col-9 hotel-detail mb-3">
+        <div class="container px-0 hotel-images">
+          <div class="row d-flex image-wrapper px-5">
+            <div class="col-8 big-image px-0">
+              <img src="../Assets/Images/hotel_view.jpg" class="hotel-point-of-view"/>
+            </div>
+            <div class="col-4 multi-images d-flex flex-column px-0">
+              <img src="../Assets/Images/hotel_room_1.jpg" class="hotel-room hotel-one" />
+              <img src="../Assets/Images/hotel_room_2.jpg" class="hotel-room hotel-two" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel Tag Section -->
+
+        <div class="container px-5 padding-tag tag-wrapper d-flex">
+          <p class="tag">5.0</p>
+          <p class="tag">Perfect</p>
+          <p class="tag">Hotels</p>
+          <p class="tag">New Building</p>
+          <p class="tag">Top Value</p>
+          <div class="star-rate d-flex list-stars tag">
+            <i class="fa-solid fa-star stars"></i>
+            <i class="fa-solid fa-star stars"></i>
+            <i class="fa-solid fa-star stars"></i>
+            <i class="fa-solid fa-star stars"></i>
+            <i class="fa-regular fa-star stars"></i>
+          </div>
+        </div>
+
+        <!-- Hotel desc -->
+
+        <div class="container">
+          <p class="hotel-name">Otres Beach Hotel</p>
+          <p class="hotel-location">18104 Sihanoukville, Sihanoukville Province</p>
+          <h5>Description</h5>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, error. Esse impedit perferendis illum sit laborum illo eaque facilis perspiciatis unde soluta quos molestiae itaque eius, omnis, quae aperiam explicabo.
+            Voluptatum nisi expedita accusantium earum, odit ipsam? Voluptatem alias quos eveniet eos, velit suscipit incidunt enim vel recusandae. Autem, vitae ipsam! Neque, necessitatibus ipsa. Tempore earum reiciendis quidem vel nihil!
+            Consequuntur sunt nulla obcaecati velit? Maiores necessitatibus veniam doloribus ut repudiandae hic labore reiciendis? Deleniti cumque voluptate maiores veniam temporibus voluptatum labore aliquam quasi, delectus voluptatem voluptas molestias dignissimos! Officiis!
+          </p>
+        </div>
+
+        <!-- Hotel feature -->
+
+        <div class="container feature">
+          <!--<p class="feature-title">Hotel features</p>-->
+          <div class="feature-wrapper d-flex justify-content-between">
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-solid fa-wifi feature-icon"></i>
+              <p class="feature-text">Wi-Fi</p>
+            </div>
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-solid fa-suitcase feature-icon"></i>
+              <p class="feature-text">Air Condition</p>
+            </div>
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-solid fa-suitcase-rolling feature-icon"></i>
+              <p class="feature-text">Balcony</p>
+            </div>
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-solid fa-bath feature-icon"></i>
+              <p class="feature-text">Bath</p>
+            </div>
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-solid fa-mug-hot feature-icon"></i>
+              <p class="feature-text">Coffee Maker</p>
+            </div>
+            <div class="custom-feature d-flex align-items-center">
+              <i class="fa-regular fa-snowflake feature-icon"></i>
+              <p class="feature-text">Refrigerator</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Choose Room Section -->
+
+        <div class="container choosing">
+          <h3 class="choosing-text">Choosing room</h3>
+          <div class="choosing-container-wrapper">
+            <div class="choosing-container py-3 px-3 d-flex align-items-center">
+              <img src="../Assets/Images/hotel_room_2.jpg" class="room-image" />
+              <div class="room-info d-flex flex-column justify-content-evenly">
+                <div class="header-info d-flex align-items-center">
+                  <div class="hotel-room-name">Twin Bedroom</div>
+                  <div class="star-rate d-flex list-stars">
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                </div>
+                <p>4 people 2 beds 1 bathroom</p>
+                <p>52$ per night</p>
+                <p><i class="fa-solid fa-calendar"></i> 5th November 2023 - 10th December 2023</p>
+              </div>
+              <div class="choosing-btn ms-auto d-flex align-items-center justify-content-center">
+                <div class="add-sub-con d-flex justify-content-between align-items-center">
+                  <p class="sub-btn">-</p>
+                  <p class="num">0</p>
+                  <p class="add-btn">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="choosing-container py-3 px-3 d-flex align-items-center">
+              <img src="../Assets/Images/hotel_room_2.jpg" class="room-image" />
+              <div class="room-info d-flex flex-column justify-content-evenly">
+                <div class="header-info d-flex align-items-center">
+                  <div class="hotel-room-name">Twin Bedroom</div>
+                  <div class="star-rate d-flex list-stars">
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                </div>
+                <p>4 people 2 beds 1 bathroom</p>
+                <p>52$ per night</p>
+                <p><i class="fa-solid fa-calendar"></i> 5th November 2023 - 10th December 2023</p>
+              </div>
+              <div class="choosing-btn ms-auto d-flex align-items-center justify-content-center">
+                <div class="add-sub-con d-flex justify-content-between align-items-center">
+                  <p class="sub-btn">-</p>
+                  <p class="num">0</p>
+                  <p class="add-btn">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="choosing-container py-3 px-3 d-flex align-items-center">
+              <img src="../Assets/Images/hotel_room_2.jpg" class="room-image" />
+              <div class="room-info d-flex flex-column justify-content-evenly">
+                <div class="header-info d-flex align-items-center">
+                  <div class="hotel-room-name">Twin Bedroom</div>
+                  <div class="star-rate d-flex list-stars">
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                </div>
+                <p>4 people 2 beds 1 bathroom</p>
+                <p>52$ per night</p>
+                <p><i class="fa-solid fa-calendar"></i> 5th November 2023 - 10th December 2023</p>
+              </div>
+              <div class="choosing-btn ms-auto d-flex align-items-center justify-content-center">
+                <div class="add-sub-con d-flex justify-content-between align-items-center">
+                  <p class="sub-btn">-</p>
+                  <p class="num">0</p>
+                  <p class="add-btn">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="choosing-container py-3 px-3 d-flex align-items-center">
+              <img src="../Assets/Images/hotel_room_2.jpg" class="room-image" />
+              <div class="room-info d-flex flex-column justify-content-evenly">
+                <div class="header-info d-flex align-items-center">
+                  <div class="hotel-room-name">Twin Bedroom</div>
+                  <div class="star-rate d-flex list-stars">
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-solid fa-star stars"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                </div>
+                <p>4 people 2 beds 1 bathroom</p>
+                <p>52$ per night</p>
+                <p><i class="fa-solid fa-calendar"></i> 5th November 2023 - 10th December 2023</p>
+              </div>
+              <div class="choosing-btn ms-auto d-flex align-items-center justify-content-center">
+                <div class="add-sub-con d-flex justify-content-between align-items-center">
+                  <p class="sub-btn">-</p>
+                  <p class="num">0</p>
+                  <p class="add-btn">+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="../Assets/Images/map.jpg" class="container map-image">
+        </div>
+        
+      </div>
+
+      <!-- Right Side -->
+
+      <div class="col-3 order-side" style="height: 83vh">
+        <div class="price-header d-flex align-items-center justify-content-between">
+            <p class="price-per-night">40$/night</p>
+            <p class="discount">20% OFF</p>
+          </div>
+          <div class="check-in-out d-flex justify-content-between">
+            <div class="check-in">
+              <p class="fs-6 mb-2">Check-In</p>
+              <p class="check-date">Nov-8-2023</p>
+            </div>
+            <div class="check-out">
+              <p class="fs-6 mb-2">Check-Out</p>
+              <p class="check-date">Nov-9-2023</p>
+            </div>
+          </div>
+          <p class="my-3">Guest</p>
+          <div class="d-flex justify-content-between align-items-center p-2 guest-container">
+            <p class="people-size">2 Peoples, 1 Children</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="my-3 d-flex justify-content-between align-items-center">
+            <p class="mx-0 my-0 extra-text">Extra Features</p>
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="extra-checkbox d-flex justify-content-between align-items-center">
+            <div class="checkbox-container">
+              <input class="my-0 mx-0" type="checkbox">
+              <label class="extra">Extra pillow</label>
+            </div>
+            <p class="price-text">Free</p>
+          </div>
+          <div class="extra-checkbox d-flex justify-content-between align-items-center">
+            <div class="checkbox-container">
+              <input class="my-0 mx-0" type="checkbox">
+              <label class="extra">Breakfast a day per person</label>
+            </div>
+            <p class="price-text">Free</p>
+          </div>
+          <div class="extra-checkbox d-flex justify-content-between align-items-center">
+            <div class="checkbox-container">
+              <input class="my-0 mx-0" type="checkbox">
+              <label class="extra">Extra pillow</label>
+            </div>
+            <p class="price-text">Free</p>
+          </div>
+          <p class="my-2">Price</p>
+          <div class="price-container px-2 py-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="my-0 mx-0 price-letter">1 Night</p>
+              <p class="my-0 mx-0 price-letter">50$</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="my-0 mx-0 price-letter">Discount 20%</p>
+              <p class="my-0 mx-0 price-letter">-10$</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="my-0 mx-0 price-letter">Breakfast a day per person</p>
+              <p class="my-0 mx-0 price-letter">10$</p>
+            </div>
+          </div>
+          <div class="total-container d-flex justify-content-between mt-2 mb-0">
+            <p class="total-text">Total Payment</p>
+            <p class="total-text">50$</p>
+          </div>
+          <div class="d-grid my-0">
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

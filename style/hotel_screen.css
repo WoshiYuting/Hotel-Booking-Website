@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation Bar */
+
+li > a {
+    cursor: pointer;
+}
+
+.link-to-home {
+    text-decoration: none;
+    color: black;
+}
+
+.bg-image {
+    background-image: url("../Assets/Images/advertise image.jpg");
+    height: 100vh;
+}
+
+.datepicker-native {
+    position: relative;
+}
+.datepicker-native-input {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.datepicker-native-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.custom-btn {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: #DEB380;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-right {
+    gap: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Footer */
+
+.footer-height {
+    height: 300px;
+}
+
+.footer-link a {
+    margin-top: 20px;
+}
+
+.footer-text-max-width {
+    max-width: 280px;
+}
+
+.footer-margin-top {
+    margin-top: 48px;
+}
+
+.social-logo {
+    font-size: 24px;
+}
+
+.link-footer {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copy-text {
+    display: inline;
+}
+
+.margin-copy {
+    margin: 0 80px;
+}
+
+.final-margin {
+    margin-bottom: 20px;
+}
+
+
+/* Main Section */
+
+/* Left Side */
+
+.col-2 {
+  height: 60vh;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.left-side-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.left-side-text label {
+    font-size: 12px;
+}
+
+
+.search-btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DEB380;
+}
+/* Right Side */
+
+.col-10 {
+  height: 140vh;
+}
+
+.search-bar {
+  margin-bottom: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 40px;
+}
+
+.hotel-grid {
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.item-wrapper {
+  height: 100%;
+  padding: 0;
+}
+
+/* Search bar Section */
+
+.margin-between-nav {
+    margin-top: 24px;
+}
+
+.search-box {
+    box-shadow: 0 1px 4px 2px rgb(155, 150, 150);
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -35px;
+    height: 70px;
+    width: 50%;
+}
+
+.search-btn-text {
+    border: none;
+    background-color: transparent;
+}
+
+
+.book-option {
+    width: 100%;
+}
+
+.book-container > p {
+    margin: 0;
+}
+
+.dis-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.d {
+    margin-right: 10px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.search-btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DEB380;
+}
+
+.fa-solid {
+    font-size: 15px;
+}
+
+/* Grid Item */
+
+.item-card {
+    height: 280px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container-test {
+    height: 100px;
+}
+
+.grid-item-image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.full-height {
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.list-stars {
+    margin-left: 7px;
+}
+
+.stars {
+    font-size: 10px;
+}
+
+.hotel-name {
+    font-size: 18px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.location-dis {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.load-more-btn {
+    margin: 0;
+    background-color: gold;
+    padding: 8px 12px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}

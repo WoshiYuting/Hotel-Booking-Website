@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./javascript/Home.js">
+  <script src="https://kit.fontawesome.com/570cb1721a.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Caveat&family=Concert+One&family=Heebo:wght@500;700&family=Libre+Baskerville&family=Lora:wght@400;500&family=Montserrat:wght@500;700&family=Mooli&family=Open+Sans:ital@1&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,700;1,800;1,900&family=Public+Sans:wght@500;700&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Home Screen</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <div class="container-fluid custom-height px-5 py-3">
+    <div class="container">
+      <div class="d-flex flex-row justify-content-between align-items-center">
+      <h2>Logo</h2>
+      <ul class="m-0">
+        <li><a>Home</a></li>
+        <li><a href="./screen/hotel_screen.html" style="text-decoration: none; color: #486284;">Hotels</a></li>
+        <li><a href="../screen/contact_us.html" class="link-to-home" style="text-decoration: none; color: #486284;">Contact Us</a></li>
+        <li><a href="../screen/about_us_screen.html" class="link-to-home" style="text-decoration: none; color: #486284;">About Us</a></li>
+      </ul>
+      <div class="nav-right d-flex align-items-center">
+        <p style="margin: 0; color: #486284;">Help</p>
+        <i class="fa-solid fa-globe"></i>
+        <button type="button" class="custom-btn">Register</button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+
+  <!-- Advertise Container -->
+
+  <div class="container bg-success my-4 advert-container opacity-25">
+    <div class="advert-title mt-3">
+      <p class="advert-header">Lorem Ipsum fresh,</p>
+      <p class="advert-header">relax, enjoy</p>
+      <p class="advert-text">Lorem ipsum d totam ipsarupts officia voluptvaaf safda as incidunt.</p>
+    </div>
+
+    <!-- Search Bar -->
+
+    <div class="search-box p-4">
+      <div class="book-option d-flex align-items-center h-100 justify-content-between">
+        <div class="book-container d-flex ml-4 align-items-center">
+          <!-- <button class="fa-solid fa-calendar-days"></button> -->
+        <button id="DatePicker" class="datepicker-native btn btn-secondary btn-sm">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" class="datepicker-native-input" />
+        </button>
+          <p style="color: #486284; font-weight: 500">Check in</p>
+          <button class="dis-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="book-container d-flex align-items-center">
+          <!-- <i class="fa-solid fa-calendar-days d"></i> -->
+          <button id="DatePicker" class="datepicker-native btn btn-secondary btn-sm">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" class="datepicker-native-input" />
+        </button>
+          <p style="color: #486284; font-weight: 500">Check out</p>
+          <button class="dis-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="book-container d-flex align-items-center">
+          <i class="fa-solid fa-user d"></i>
+          <p style="color: #486284; font-weight: 500">Guest</p>
+          <button class="dis-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="book-container d-flex align-items-center">
+          <button class="search-btn-text" style="color: #486284; font-weight: 500">Search here</button>
+        </div>
+        <button class="search-btn ml-4"><i class="fa-solid fa-magnifying-glass" ></i></button>
+      </div>
+    </div>
+    </div>
+    <div class="container most-mar d-flex justify-content-between align-items-center">
+      <p class="most-top-title" style="color: #486284;">Most top-rated and highly recommended accomodation.</p>
+      <button class="dis-btn" style="background-color: #486284; color: white; padding: 8px 15px; font-size: 14px;">Discover More</button>
+    </div>
+  </div>
+
+  <!-- Most Top Rate Section -->
+
+  <div id="carouselExample" class="carousel slide container mb-5">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card-wrapper d-flex container px-5">
+          <div class="custom-card first">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card second">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="custom-card third">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card fourth">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-wrapper d-flex container px-5">
+          <div class="custom-card first">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card fifth">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card sixth">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card seven">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-wrapper d-flex container px-5">
+          <div class="custom-card first">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card eight">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card nine">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-card ten">
+            <div class="custom-card-desc">
+              <p class="fs-5 m-0">Malani Hotel</p>
+              <div class="hotel-name-rate d-flex align-items-center">
+                <p class="m-0 hotel-location">Kampot, Cambodia</p>
+                <div class="star-rate d-flex list-stars">
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-solid fa-star stars"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <button class="carousel-control-prev d-flex icon-clr justify-content-start text-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <!-- Lorem Epsom Passage Section -->
+
+  <div class="px-4 py-0 mb-5 text-center">
+    <h1 class="display-5 fw-bold fs-2 lorem-top-header" style="color: #486284;">Lorem Epson Passage</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead fs-6">Quicklyd system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+    </div>
+    <div class="lorem-wrapper d-flex container justify-content-evenly">
+      <div class="lorem-card text-center lorem-text d-flex flex-column justify-content-center align-items-center">
+        <i class="fa-solid fa-location-dot icon-size lorem-icon" style="background-color: rgb(237, 230, 230); color: #486284;"></i>
+        <p class="lorem-header">Choose Accomdation</p>
+        <p>unde rem distinctio quam ullam est nulla nihil natus ipsa.</p>
+      </div>
+      <div class="lorem-card text-center lorem-text d-flex flex-column justify-content-center align-items-center">
+        <i class="fa-solid fa-calendar icon-size lorem-icon" style="background-color: rgb(237, 230, 230); color: #486284;"></i>
+        <p class="lorem-header">Pick-up Date</p>
+        <p>iusto unde rem distinctio quam ullam est um, nihil natus ipsa.</p>
+      </div>
+      <div class="lorem-card text-center lorem-text d-flex flex-column justify-content-center align-items-center">
+        <i class="fa-solid fa-credit-card icon-size lorem-icon" style="background-color: rgb(237, 230, 230); color: #486284;"></i>
+        <p class="lorem-header">Payment</p>
+        <p>unde rem distinctio quam ullam rum, nihil natus ipsa.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feedback Section -->
+
+  <div class="container">
+    <p style="font-size: 40px; font-weight: 700; text-align: center; margin-bottom: 30px; color: #DEB380;">WHAT CLIENT SAY</p>
+    <div class="feedback-wrapper d-flex justify-content-evenly">
+      <div class="feedback-card d-flex flex-column align-items-center justify-content-center">
+        <img src="./Assets/Images/baldski.jpg" class="feedback-image"/>
+        <p class="feedback-name" style="color: #DEB380; font-weight: 500;">Jackie Chan</p>
+        <div class="feedback-stars d-flex">
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-regular fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+        </div>
+        <p class="feedback-desc" style="color: #486284; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisci</p>
+      </div>
+      <div class="feedback-card d-flex flex-column align-items-center justify-content-center">
+        <img src="./Assets/Images/baldski.jpg" class="feedback-image"/>
+        <p class="feedback-name" style="color: #DEB380; font-weight: 500;">Jackie Chan</p>
+        <div class="feedback-stars d-flex">
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-regular fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+        </div>
+        <p class="feedback-desc" style="color: #486284; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisci</p>
+      </div>
+      <div class="feedback-card d-flex flex-column align-items-center justify-content-center">
+        <img src="./Assets/Images/baldski.jpg" class="feedback-image"/>
+        <p class="feedback-name" style="color: #DEB380; font-weight: 500;">Jackie Chan</p>
+        <div class="feedback-stars d-flex">
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-solid fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+          <i class="fa-regular fa-star stars" style="font-size: 12px; color: #DEB380"></i>
+        </div>
+        <p class="feedback-desc" style="color: #486284; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisci</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="container">
+    <div class="row footer-height" style="color: #486284;">
+      <div class="col-6 d-flex flex-column align-items-center justify-content-center">
+        <h4 class="align-self-start">Logo</h4>
+        <p class=" align-self-start footer-text-max-width">Our vision is to provide convenience and help increase your sales business</p>
+        <div class="social-media-logo align-self-start d-flex ">
+          <div class="link-footer"><i class="fa-brands fa-facebook-f social-logo"></i></div>
+          <div class="link-footer"><i class="fa-brands fa-twitter social-logo"></i></div>
+          <div class="link-footer"><i class="fa-brands fa-instagram social-logo"></i></div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-evenly align-items-center">
+        <div class="d-flex flex-column footer-link">
+          <h5>About</h5>
+          <a>How it works</a>
+          <a>Featured</a>
+          <a>Partnership</a>
+          <a>Business Relation</a>
+        </div>
+        <div class="d-flex flex-column footer-link">
+          <h5>Quick Links</h5>
+          <a>Home</a>
+          <a>Hotels</a>
+          <a>Contact Us</a>
+          <a>About Us</a>
+        </div>
+        <div class="d-flex flex-column footer-link">
+          <h5>Socials</h5>
+          <a>Discord</a>
+          <a>Instagram</a>
+          <a>Twitter</a>
+          <a>Facebook</a>
+        </div>
+      </div>
+    </div>
+     <div class="container final-margin" style="color: #486284;">
+    <div class="row">
+      <div class="col-6">
+        <i class="fa-regular fa-copyright"></i>
+        <p class="copy-text">2023 Company Name. All rights reserved</p>
+      </div>
+      <div class="col-6">
+        <p class="copy-text margin-copy">Privacy & Policy</p>
+        <p class="copy-text">Term & Condition</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+ 
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

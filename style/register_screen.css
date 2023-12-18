@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.box {
+  width: 350px;
+  height: 450px;
+  background-color: green;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+
+.billing-detail {
+  height: 80%;
+  width: 100%;
+  background-color: red;
+}
+
+.input-field p {
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.input-wrapper {
+  width: 100%;
+  gap: 10px;
+}
+
+.input-field {
+  margin-top: 10px;
+}
+
+.fixed-width {
+  width: 90%;
+}
+
+.pay-container {
+  height: 100%;
+}
+
+.pay-card {
+  height: 50px;
+  width: 70px;
+  background-color: green;
+}
